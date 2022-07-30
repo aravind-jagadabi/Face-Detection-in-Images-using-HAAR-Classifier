@@ -14,6 +14,9 @@ The downside to Haar cascades is that they tend to be prone to false-positive de
 and just, in general, are not as accurate as the more “modern” algorithms we have today.
 
 The detectMultiScale function detects the faces in the images. Its parameters are as follows:
-The grayscale image in which faces are to be detected .
-scaleFactor - Since some faces may be closer to the camera, they would appear bigger than the faces in the back. The scale factor compensates for this.
-The detection algorithm uses a moving window to detect objects. minNeighbors defines how many objects are detected near the current one before it declares the face found. minSize, meanwhile, gives the size of each window.
+The grayscale image in which faces are to be detected.
+scaleFactor - Since some faces may be closer to the camera, they would appear bigger than the faces in the back.
+The scale factor compensates for this.
+The detection algorithm uses a moving window to detect objects. 
+minNeighbors defines how many objects are detected near the current one before it declares the face found
+. minSize, meanwhile, gives the size of each window.
