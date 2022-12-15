@@ -20,3 +20,7 @@ The scale factor compensates for this.<br>
 The detection algorithm uses a moving window to detect objects.<br> 
 minNeighbors defines how many objects are detected near the current one before it declares the face found
 . minSize, meanwhile, gives the size of each window.
+
+# Here it is the screenshot of the project.
+
+![image](https://user-images.githubusercontent.com/76617844/207966302-285182a5-4ae0-4a1d-ad1a-2218416de9d3.png)
